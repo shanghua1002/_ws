@@ -11,7 +11,7 @@ function introduce(ctx){
   }else if(pathName == '/age'){
     ctx.response.body = '200'
   }else if(pathName == '/gender'){
-    ctx.response.body = 'b'
+    ctx.response.body = '男'
   }else if(pathName == '/hellow'){
     ctx.response.body = 'hellow'
   }else{
