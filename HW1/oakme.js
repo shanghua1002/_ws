@@ -7,7 +7,7 @@ function introduce(ctx){
   console.log('url=', ctx.request.url)
   let pathName = ctx.request.url.pathname
   if(pathName == '/name'){
-    ctx.response.body = 'shanghua'
+    ctx.response.body = '愛新覺羅尚樺'
   }else if(pathName == '/age'){
     ctx.response.body = '200'
   }else if(pathName == '/gender'){
